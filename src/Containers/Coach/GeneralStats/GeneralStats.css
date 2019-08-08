@@ -1,0 +1,103 @@
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.Title{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #0777fa;
+    border-radius: 25px;
+    padding: 10px;
+    width: 60%;
+}
+
+.InformationBox{
+    background-color: white;
+    border-radius: 25px;
+    width:90%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: thin solid #0777fa;
+    text-align: center;
+    color: #033875;
+
+}
+.GenderBox{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.Table{
+    width:100%;
+}
+
+.TableTitle{
+    color: white;
+    background-color: #0777fa;
+    border: thin solid #0777fa;
+    padding: 2px;
+    width:90%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin:auto;  
+}
+
+.Row{
+    background-color: white;
+    border: thin solid #0777fa;
+    padding: 2px;
+    width:90%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin:auto;
+
+}
+.Column{
+    width: 50%;
+    text-align:center;
+}
+
+.RowSub{
+    border-top: thin solid white;
+    padding: 2px;
+    width:90%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin:auto;
+    background-color: #0777fa;
+    color: white
+
+}
+.ColumnSub{
+    width: 50%;
+    text-align:center;
+}
+
+@media(min-width: 500px){
+    .Container{
+        width: 60%;
+        margin:auto;
+    }
+
+    .Title{
+        width: 50%;
+    }
+
+    .InformationBox{
+        width: 70%;
+    }
+}

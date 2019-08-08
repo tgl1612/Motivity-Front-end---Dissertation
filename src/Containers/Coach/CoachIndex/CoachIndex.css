@@ -1,0 +1,33 @@
+.Container{
+    width: 100%;
+}
+
+
+.Container img{
+    width: 100%;
+    z-index: 40;
+    max-height: 450px
+}
+
+.Box{
+    background-color: transparent;
+    text-align: center;
+}
+
+.Box h2{
+    margin:auto;
+    margin-top: 20px;
+
+    width:60%;
+}
+
+.Box h4{
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+
+}
+
+.Empty{
+    display:none;
+}

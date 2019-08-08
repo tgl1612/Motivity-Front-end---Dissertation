@@ -1,0 +1,78 @@
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+    padding-bottom: 100px;
+    color: #033875;
+}
+
+.Title{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+    background-color: white;
+    color:#0777fa;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.Results{
+    background-color: white;
+    width:95%;
+    margin: auto;
+    padding:10px;
+    display: flex;
+    flex-flow: row;
+    align-items: left;
+    border: 2px #033875  solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+.SubSection{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.SubSection h5{
+    text-align: center;
+}
+
+.SubSub{
+  height: 50%
+}
+
+.SubSub button{
+    margin-top:0;
+}
+
+.SubSectionCars{
+    margin:auto
+}
+
+.BackButton{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.BackButton a{
+   margin: auto;
+}
+
+@media(min-width:500px){
+    .Results{
+        width:70%;
+       
+    }
+
+    .Container{
+        width: 60%;
+        margin:auto;
+    }
+}

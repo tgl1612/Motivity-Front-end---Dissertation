@@ -1,0 +1,79 @@
+
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+}
+
+.Register{
+    background-color: #0777fa;
+    color: white;
+    margin: auto;
+    width: 90%;
+    border-radius: 12px;
+    border: 10px solid #033875;
+    padding: 20px;
+    
+    margin-bottom: 100px;
+
+}
+
+.Register form{
+    width: 90%;
+    margin: auto;
+
+}
+
+.Register h3, p{
+    text-align: center;
+}
+
+.Register form input{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Register form button{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.Register label{
+    margin-top: 5px; 
+}
+
+.Information{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+@media(min-width: 500px) {
+    .Register{
+        width: 60%;  
+
+    }
+    
+    .Register form input{
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;   
+    }
+
+    .Register form{
+        width: 60%;    
+    }
+}

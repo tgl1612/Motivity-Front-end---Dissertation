@@ -1,0 +1,91 @@
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+}
+
+.InformationBox{
+    width:90%;
+    margin:auto;
+    margin-top: 20x;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    border: 10px solid #033875;
+
+    
+}
+
+.SubSection{
+    margin-top: 20px;
+}
+
+
+strong{
+    color:#033875;
+}
+
+.Title{
+ color: #033875;
+ border-bottom: #033875 thin solid;
+width:100%;
+}
+
+.Title h3{
+    margin-bottom:  0;
+    text-align: center
+
+}
+
+.UserInfo{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.UserInfo p{
+    text-align: left;
+
+}
+
+.Buttons{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Buttons2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+
+@media(min-width: 500px){
+
+    .Container{
+        padding-top: 50px;
+        width: 60%;
+        margin: auto;
+        display: block;
+        background-color: #d8e0ec;
+}
+    .InformationBox{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width:80%
+    }
+}
+
+@media(min-width: 1200px){
+    .InformationBox{
+      
+        width:60%
+    }
+}

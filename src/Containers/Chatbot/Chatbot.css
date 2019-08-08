@@ -1,0 +1,180 @@
+.Container{
+    margin: auto;
+    margin-top:20px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 7px #033875 solid;   
+    border-radius: 12px;
+    min-height: 80%;
+    position: relative;
+  }
+  
+  .Header{
+    width: 100%;
+    height: 50px;
+    background-color: #0777fa;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin:0;
+    padding-left: 1px;
+    margin-bottom: 10px;
+    padding-top:5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .HeaderText{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    flex-flow: row;
+    
+  }
+  
+  .Invisible{
+    display: none;
+  }
+  
+  
+  
+  .Body{
+    top:50px;
+    position: absolute;
+  
+  height: 83%;
+   width:100%;
+   overflow-y: auto;
+
+  
+  }
+  
+  .Robot{
+    width:100%;
+    margin:auto;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+  }
+
+ .RobotButtons{
+      margin:auto;
+      text-align: center;
+  }
+
+  .SpeechBubbleRobot{
+      width: 80%;
+      margin-left:10px;
+
+      margin-bottom: 10px;
+      float:left;
+
+      
+  }
+
+  .SpeechBubbleRobot p{
+    text-align: left;
+    display:inline-block;
+  margin: 0;
+  margin-top:10px;
+  font-size: 15px;
+  background-color: #0777fa;
+  color:white;
+  padding:8px;
+  border-radius: 12px;
+
+}
+
+
+
+.SpeechBubbleUser p{
+    text-align: left;
+    display:inline-block;
+    background-color: white;
+    color: #0777fa;
+    padding:8px;
+    border-radius: 12px;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+  }
+
+  
+  .User{
+    width:100%;
+    margin:auto;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom:5px;
+  
+  }
+  .AlignRight{
+      float:right;
+  }
+
+ 
+  
+  .Input{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height:35px;
+    color: white;
+    background-color: #0777fa;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:100%;
+    padding-top: 5px;
+  }
+
+  .Avatar{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -15%; 
+    height: 100%;
+    width: auto;
+  }
+
+  .AvatarCropper{
+    width: 40px;
+    height: 40px;
+    margin-top:10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .PhotoText{
+    display: flex;
+    flex-flow: row;
+
+  }
+
+  .Dot{
+    height: 25px;
+  width: 25px;
+  margin-top: 5.5px;
+  margin-left: 22.5px;
+  margin-right: 20px;
+  background-color: rgb(64, 233, 64);
+  border-radius: 50%;
+  display: inline-block;  
+  }
+
+  @media(min-width: 500px){
+    .Container{
+      width: 70%;
+    }
+  }
+  @media(min-width: 1200px){
+    .Container{
+      width: 30%;
+    }
+  }

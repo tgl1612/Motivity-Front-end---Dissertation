@@ -1,0 +1,50 @@
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+    padding-bottom: 100px;
+}
+
+.Title{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+    background-color: white;
+    color:#0777fa;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.BackButton{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.BackButton a{
+   margin: auto;
+}
+
+.SubHeading{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    color: #033875;
+}
+
+.SubHeading h4{
+    text-align: center;
+}
+
+@media(min-width: 500px){
+    
+.SubHeading{
+    width: 60%;    
+}
+
+.Container{
+    width:60%;
+    margin: auto;
+}
+}

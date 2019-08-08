@@ -1,0 +1,87 @@
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+    height: 100%; 
+}
+
+.Login{
+
+    background-color: #0777fa;
+    color: white;
+    margin: auto;
+    width: 90%;
+    border-radius: 12px;
+    border: 10px solid #033875;
+    padding: 20px;
+}
+
+.Information{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.Login form{
+    width: 90%;
+    margin: auto;
+}
+
+.Login h3, p{
+    text-align: center;
+}
+
+.Login input{
+    border-radius: 12px;
+    border: thin solid grey;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.Login form input{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Login form button{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Login label{
+    margin-top: 5px; 
+}
+
+@media(min-width: 500px) {
+    .Login{
+        width: 60%;  
+    }
+
+    .Login input{
+        width: 60%;
+        border-radius: 12px;
+        border: thin solid grey;
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .Login form input{
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Login form{
+        width: 60%;    
+    }
+}

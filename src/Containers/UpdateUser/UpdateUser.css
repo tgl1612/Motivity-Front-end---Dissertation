@@ -1,0 +1,137 @@
+
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+}
+
+.Register{
+    background-color: #0777fa;
+    color: white;
+    margin: auto;
+    width: 90%;
+    border-radius: 12px;
+    border: 10px solid #033875;
+    padding: 20px;
+    
+    margin-bottom: 50px;
+
+}
+
+.Register{
+    background-color: #0777fa;
+    color: white;
+    margin: auto;
+    width: 90%;
+    border-radius: 12px;
+    border: 10px solid #033875;
+    padding: 20px;
+    
+    margin-bottom: 50px;
+
+}
+
+.UpdateBox{
+        background-color: #0777fa;
+        color: white;
+        margin: auto;
+        width: 90%;
+        border-radius: 12px;
+        border: 10px solid #033875;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 50px;
+    
+    
+}
+
+.DeleteModal{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.DeleteModal button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Register form{
+    width: 90%;
+    margin: auto;
+
+}
+
+.Register h3, p{
+    text-align: center;
+}
+
+
+
+.Register form input{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.Register form button{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.Register label{
+    margin-top: 5px; 
+}
+
+.Information{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.SuccessBox{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@media(min-width: 500px) {
+    .Register{
+        width: 60%;  
+
+    }
+
+    .UpdateBox{
+        width: 60%
+    }
+
+    .Register form input{
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;  
+    }
+
+    .Register form{
+        width: 60%;    
+    }
+
+  
+
+}

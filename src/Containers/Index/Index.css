@@ -1,0 +1,144 @@
+.Container{
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+    padding-bottom: 100px;
+}
+
+.Empty{
+    display:none;
+}
+
+ .Box{
+    background-color: transparent;
+    text-align: center;
+}
+
+.Box h2{
+    margin-top: 20px;
+}
+
+.Box h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Container img{
+    width: 100%;
+    z-index: 40;
+    max-height: 500px
+
+}
+
+.Section{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: transparent;
+}
+
+.Left{
+    order: 2;
+    background-color: transparent;
+}
+
+.Right{
+    order:1;
+    background-color: transparent;
+}
+
+.Left img{
+    border-radius: 12px;
+    max-height: 300px;
+}
+
+.Right h4{
+    text-decoration: underline;
+    color:rgb(65, 72, 100);
+    text-align: center;
+}
+
+.Right li{
+    color: rgb(65, 72, 100);
+
+}
+
+.SubSection h4{
+    text-decoration: underline;
+    color:rgb(65, 72, 100);
+    text-align: center;
+
+}
+
+.SubSection li{
+    color: rgb(65, 72, 100);
+}
+
+.SubSection img{
+    border-radius: 12px;
+    max-height: 300px;
+}
+
+
+.Information{
+    border: thin #033875 solid;
+    border-radius: 12px;
+    padding: 10px;
+    margin:auto;
+    margin-top: 70px;
+    width:90%;
+    text-align: center;
+    background-color: rgb(136, 179, 195);
+    color:#033875;
+}
+
+.Information h3{
+    text-decoration: underline;
+}
+
+
+@media(min-width:500px) {
+    .Section{
+        flex-flow: row;
+    }
+
+    .SubSection{
+        width:50%;
+        display: flex;
+    flex-flow: column;
+    align-items: center;
+    }
+
+    .Left{
+        order:1;
+        width:50%;
+        display: flex;
+    flex-flow: column;
+    align-items: center;
+    }
+
+    .Right{
+        order:2;
+        width:50%;
+        display: flex;
+    flex-flow: column;
+    align-items: center;
+    }
+
+    .Left img{
+        border-radius: 12px;
+        max-height: 300px;
+        max-width: 300px;
+    }
+  
+    .SubSection img{
+        border-radius: 12px;
+        max-height: 300px;
+        max-width: 300px;
+    }
+}

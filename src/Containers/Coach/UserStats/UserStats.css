@@ -1,0 +1,85 @@
+.Container{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    background-color: #d8e0ec;
+    padding-bottom: 50px;
+    color: #033875;
+}
+
+.Title{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #0777fa;
+    border-radius: 25px;
+    padding: 5px;
+    width: 60%;
+}
+
+.Users{
+    background-color: white;
+    width:95%;
+    margin: auto;
+    padding:10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px #033875 solid;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+.Users h4{
+    color: #0777fa;
+   text-decoration: underline;
+}
+
+
+
+.UserInfo{
+    width: 100%;
+    display:flex;
+    flex-flow: row;
+    align-items: left;
+}
+
+.SubSection{
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    margin-left:10px;
+    
+}
+
+.SubSection h5{
+    text-align: left;
+}
+
+.SubSub{
+  height: 50%
+}
+
+.SubSub button{
+    margin-top:10px;
+}
+
+.SubSectionCars{
+    margin:auto
+}
+
+
+@media(min-width:500px){
+    .Users{
+        width:70%;
+       
+    }
+
+    .Container{
+        width:60%;
+        margin: auto;
+    }
+}
