@@ -1,0 +1,53 @@
+
+  .Avatar{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -15%; 
+    height: 100%;
+    width: auto;
+  }
+
+  .AvatarCropper{
+    width: 80px;
+    height: 80px;
+    margin-top:10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px rgb(40, 199, 40) solid;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+  }
+  
+  .Container{
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    width: 22%;
+  }
+
+  .Chat{
+    background-color: rgb(40, 199, 40);
+    color: white;
+    text-align: center;
+    border-radius: 25%;
+    width: 50px;
+    margin:auto;
+    position: fixed;
+    bottom: 14px;
+
+  }
+
+
+  .Invisible{
+    display: none;
+  }
+
+  @media(min-width:500px) {
+    .Container{
+    
+      width: 10%;
+    }
+  }

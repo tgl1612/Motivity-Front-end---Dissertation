@@ -1,0 +1,26 @@
+.Input{
+    width: 100%;
+  
+}
+
+.InputElement{
+    border-radius: 12px;
+    border: thin solid grey;
+    font: inherit;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+}
+
+.SelectElement{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.Valid {
+    border: 2px solid rgb(40, 199, 40);
+}

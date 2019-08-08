@@ -1,0 +1,14 @@
+.Logo{
+    height: 65px;
+    margin-bottom: 0;
+    margin-top: 9px;
+}
+
+.LogoText{
+display:flex
+}
+
+.LogoText p{
+    font-size: 53px;
+    margin-bottom: 0;
+}

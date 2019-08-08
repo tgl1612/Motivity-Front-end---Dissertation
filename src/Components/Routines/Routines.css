@@ -1,0 +1,47 @@
+.Routines{
+    background-color: white;
+    width:95%;
+    margin: auto;
+    padding:10px;
+    display: flex;
+    flex-flow: row;
+    align-items: left;
+    border: 2px #033875  solid;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    color: #033875;
+}
+
+.SubSection{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* margin:auto; */
+    
+}
+
+.SubSection h5{
+    text-align: center;
+}
+
+.SubSub{
+  height: 50%
+}
+
+.SubSectionCars{
+    margin:auto;
+    text-align: center;
+}
+
+.Invisible{
+    display: none;
+}
+
+@media(min-width:1200px){
+    .Routines{
+        width:70%;
+       
+    }
+}

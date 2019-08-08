@@ -1,0 +1,61 @@
+.Button{
+    background-color: transparent;
+    border:none;
+    color: #0777fa;
+    cursor: pointer;
+    font:inherit;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+
+.Continue{
+    color: #0777fa;
+    background-color:white;
+}
+
+.Blue{
+    background-color: #0777fa;
+    color:white;
+    font-size: 20px;
+}
+.Blue2{
+    background-color: #0777fa;
+    color:white;
+    font-size: 25px;
+}
+
+.ViewRoutine{
+    background-color: #0777fa;
+    color:white;
+    font-size: 15px;
+}
+
+.Delete{
+    background-color: rgb(192, 12, 12);
+    color: white;
+    font-size: 15px;
+}
+
+.Delete2{
+    background-color: rgb(192, 12, 12);
+    color: white;
+    font-size: 20px;
+}
+
+.Green{
+    background-color: rgb(40, 199, 40);
+    color:white;
+    font-size: 20px;
+}
+
+.Conversation{
+    background-color: white;
+    color: #0777fa;
+    font-size: 10px;
+  
+    min-width: 75px;
+    margin:5px
+}

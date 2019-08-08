@@ -1,0 +1,39 @@
+.Modal{
+    z-index:150;
+    background-color: #d8e0ec;
+    color: #0777fa ;
+    position: fixed;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 12px;
+    padding: 16px;
+    left: 15%;
+    top: 25%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.Modal h5,h4{
+    text-align:center;
+
+}
+.Modal h4{
+width: 100%;
+border-bottom: thick #0777fa solid;
+}
+
+.Modal button{
+    margin:auto;
+}
+
+/* .Modal h4{
+    text-decoration: underline;
+} */
+
+@media (min-width: 600px){
+    .Modal{
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
